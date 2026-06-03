@@ -1,3 +1,11 @@
+Aula de Lógica de programação.
+
+Curso: Engenharias.
+
+Professor: Ralfh.
+
+Trabalho sobbre calculadora de BTUs.
+
 # CALCULADORA DE BTUs
 
 ## Grupo 3
