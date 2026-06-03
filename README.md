@@ -1,76 +1,119 @@
-1. Introdução e motivação 
-As motivações do trabalho foram a partir do incentivo de um participante do grupo que trabalha nessa área, já atuando de certa forma na engenharia e ele nos contou como uma calculadora assim poderia agilizar o trabalho em certos locais.
-Este trabalho tem como objetivo desenvolver uma calculadora de BTUs utilizando a linguagem Python. O programa foi criado para auxiliar no cálculo da potência ideal de um ar-condicionado de acordo com as características do ambiente.
-Durante o desenvolvimento foram utilizados conceitos básicos de lógica de programação, como variáveis, funções, estruturas condicionais e estruturas de repetição.
+# CALCULADORA DE BTUs
 
-2.Objetivo
+## Grupo 3
 
-O objetivo do projeto é calcular automaticamente a quantidade aproximada de BTUs necessária para climatizar um ambiente, considerando:
-Área do local
-Quantidade de pessoas
-Quantidade de eletrônicos
-Incidência de sol
+* Kaio — 202603020738
+* Pablo — 202601497286
+* Marcus — 202404128271
+* Pedro Otávio — 202402280601
+* João Pedro — 202502258801
 
-2. Tecnologias Utilizadas
-Linguagem Python
-Visual Studio Code (ou outra IDE utilizada)
+---
 
-3. Conceitos Utilizados
+# 1. Introdução e Motivação
 
-Durante o desenvolvimento do projeto foram aplicados os seguintes conceitos:
+A motivação para o desenvolvimento deste trabalho surgiu a partir do incentivo de um integrante do grupo que já atua na área de engenharia e manutenção de sistemas de climatização. Durante as discussões do grupo, foi apresentado como uma calculadora de BTUs pode auxiliar e agilizar o processo de dimensionamento de ar-condicionado em diferentes ambientes.
 
-Variáveis
-Entrada e saída de dados
-Funções
-Estruturas condicionais (if, elif, else)
-Estrutura de repetição (while)
-Operações matemáticas
+Com base nisso, foi desenvolvido um programa utilizando a linguagem Python com o objetivo de calcular a quantidade aproximada de BTUs necessária para climatizar um ambiente de maneira prática e automática.
 
-4. Funcionamento do Programa
+Durante o desenvolvimento do projeto foram aplicados conceitos básicos de lógica de programação, como variáveis, funções, estruturas condicionais e estruturas de repetição.
+
+---
+
+# 2. Objetivo
+
+O objetivo deste projeto é calcular automaticamente a quantidade aproximada de BTUs necessária para climatizar um ambiente, considerando os seguintes fatores:
+
+* Área do ambiente
+* Quantidade de pessoas
+* Quantidade de eletrônicos
+* Incidência de sol
+
+Além disso, o programa recomenda a potência ideal do ar-condicionado de acordo com o resultado obtido.
+
+---
+
+# 3. Tecnologias Utilizadas
+
+As tecnologias utilizadas no desenvolvimento do projeto foram:
+
+* Linguagem Python
+* Visual Studio Code
+
+---
+
+# 4. Conceitos Utilizados
+
+Durante o desenvolvimento do projeto foram utilizados os seguintes conceitos de programação:
+
+* Variáveis
+* Entrada e saída de dados
+* Funções
+* Estruturas condicionais (`if`, `elif`, `else`)
+* Estrutura de repetição (`while`)
+* Operações matemáticas
+
+---
+
+# 5. Funcionamento do Programa
+
+O funcionamento do programa ocorre de forma simples e prática.
 
 O usuário informa:
 
-Área do ambiente
-Quantidade de pessoas
-Quantidade de eletrônicos
-Se o ambiente recebe muito sol
+* Área do ambiente
+* Quantidade de pessoas
+* Quantidade de eletrônicos
+* Se o ambiente recebe muito sol
 
-Após isso, o programa realiza o cálculo dos BTUs e recomenda a potência ideal do ar-condicionado.
+Após o preenchimento dessas informações, o programa realiza automaticamente o cálculo dos BTUs e recomenda a potência adequada do ar-condicionado.
 
-5. Fórmula Utilizada
+---
 
-O cálculo utilizado foi:
+# 6. Fórmula Utilizada
 
-600 BTUs por metro quadrado
-600 BTUs para cada pessoa
-600 BTUs para cada eletrônico
-800 BTUs adicionais caso o ambiente receba muito sol
+O cálculo utilizado no programa foi baseado nas seguintes regras:
 
-6. Representação da fórmula:
+* 600 BTUs por metro quadrado
+* 600 BTUs para cada pessoa adicional
+* 600 BTUs para cada eletrônico
+* 800 BTUs adicionais caso o ambiente receba muito sol
 
-BTUs=(Area×600)+(Pessoas×600)+(Eletronicos×600)+800
+## Representação da Fórmula
 
-7. Código do Programa
+BTUs = (Área × 600) + (Pessoas × 600) + (Eletrônicos × 600) + 800
+
+---
+
+# 7. Código do Programa
 
 Nesta seção deve ser inserido o código desenvolvido em Python.
 
-8. Exemplo de Execução
-Exemplo:
+---
 
-Área: 20 m²
-Pessoas: 2
-Eletrônicos: 1
-Muito sol: Sim
+# 8. Exemplo de Execução
 
-Resultado:
+## Exemplo:
 
-BTUs=(20×600)+(2×600)+(1×600)+800=14600
+* Área: 20 m²
+* Pessoas: 2
+* Eletrônicos: 1
+* Muito sol: Sim
 
-Sugestão do programa:
+## Resultado:
 
-Ar-condicionado de 18.000 BTUs
-9. Conclusão
+BTUs = (20 × 600) + (2 × 600) + (1 × 600) + 800
 
-Com este projeto foi possível compreender melhor os conceitos básicos da programação em Python, principalmente o uso de funções, condicionais e estruturas de repetição.
+BTUs = 14.600
 
-O sistema desenvolvido consegue realizar cálculos simples de BTUs de forma automática e prática.
+## Sugestão do Programa:
+
+* Ar-condicionado de 18.000 BTUs
+
+---
+
+# 9. Conclusão
+
+Com este projeto foi possível compreender melhor os conceitos básicos da programação em Python, principalmente o uso de funções, estruturas condicionais e estruturas de repetição.
+
+O sistema desenvolvido consegue realizar cálculos simples de BTUs de forma automática, prática e eficiente, demonstrando como a programação pode ser aplicada para solucionar problemas do cotidiano e auxiliar atividades da área de engenharia e climatização.
