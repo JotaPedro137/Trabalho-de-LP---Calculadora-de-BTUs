@@ -11,8 +11,6 @@ Trabalho sobbre calculadora de BTUs.
 ## Grupo 3
 
 * Kaio — 202603020738
-* Pablo — 202601497286
-* Marcus — 202404128271
 * Pedro Otávio — 202402280601
 * João Pedro — 202502258801
 
